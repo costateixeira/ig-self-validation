@@ -17,12 +17,12 @@
   <version value="0.1.0-test"/>
   <name value="FancyIG"/>
   <status value="active"/>
-  <date value="2022-02-08T23:10:07+00:00"/>
-  <publisher value="xxxYour Work Group"/>
+  <date value="2022-02-08T23:22:22+00:00"/>
+  <publisher value="Your Work Group"/>
   <contact>
     <telecom>
       <system value="url"/>
-      <value value="xxxhttp://hl7.org/Special/committees/[something]"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
     </telecom>
   </contact>
   <jurisdiction>

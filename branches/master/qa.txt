@@ -1,35 +1,19 @@
-﻿xxxYourComputableMyIGNameHere : Validation Results
+﻿YourComputableMyIGNameHere : Validation Results
 =========================================
 
-err = 6, warn = 3, info = 0
+err = 4, warn = 2, info = 0
 IG Publisher Version: 1.1.99
-Generated Tue Feb 08 23:10:25 UTC 2022. FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = xxxhttp://somewhere.org/fhir/uv/myig)
- Build Errors : 14 / 1 / 0
+Generated Tue Feb 08 23:22:37 UTC 2022. FHIR version 4.0.1 for example.fhir.uv.myig#0.1.0-test (canonical = http://somewhere.org/fhir/uv/myig)
+ Build Errors : 1 / 1 / 0
  /github/workspace/fsh-generated/resources/StructureDefinition-FancyIG : 2 / 1 / 1
- /github/workspace/input/myig : 3 / 1 / 1
+ /github/workspace/input/myig : 1 / 0 / 2
 </table>
 == n/a ==
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/FancyIG.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/FancyIG.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /github/workspace/output/StructureDefinition-FancyIG-definitions.html#/html/body/div/div/div/p/a at Line 1227, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-FancyIG-examples.html#/html/body/div/div/div/p/a at Line 288, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-FancyIG-mappings.html#/html/body/div/div/div/p/a at Line 370, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-FancyIG.html#/html/body/div/div/div/p/a at Line 1110, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-FancyIG.profile.history.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-FancyIG.profile.json.html#/html/body/div/div/div/p/a at Line 4340, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-FancyIG.profile.ttl.html#/html/body/div/div/div/p/a at Line 3873, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-FancyIG.profile.xml.html#/html/body/div/div/div/p/a at Line 3880, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 226, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/p/a at Line 203, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/p/a at Line 239, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 229, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 192, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 == fsh-generated/resources/StructureDefinition-FancyIG.json ==
-ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/FancyIG'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-FancyIG.json - the canonical URL (xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG) does not match the URL (http://example.com/fhir/example/StructureDefinition/FancyIG)
+ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/FancyIG'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-FancyIG.json - the canonical URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG) does not match the URL (http://example.com/fhir/example/StructureDefinition/FancyIG)
 WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/FancyIG'): The Implementation Guide contains no examples for this profile
-ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-FancyIG: URL Mismatch xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG vs http://example.com/fhir/example/StructureDefinition/FancyIG
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-FancyIG: URL Mismatch http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG vs http://example.com/fhir/example/StructureDefinition/FancyIG
 == input/myig.xml ==
-ERROR: ImplementationGuide.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig'): Conformance resource /github/workspace/input/myig.xml - the canonical URL (xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/xxxexample.fhir.uv.myig) does not match the URL (xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig)
-ERROR: ImplementationGuide.url: Resource id/url mismatch: xxxexample.fhir.uv.myig/xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig
-WARNING: ImplementationGuide/xxxexample.fhir.uv.myig: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: /github/workspace/input/myig: URL Mismatch xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/xxxexample.fhir.uv.myig vs xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig
+ERROR: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide: ImplementationGuide.copyright: minimum required = 1, but only found 0 (from http://example.com/fhir/example/StructureDefinition/FancyIG)

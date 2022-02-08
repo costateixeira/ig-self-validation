@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG> a fhir:StructureDefinition;
+<http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "FancyIG"];
   fhir:DomainResource.text [
@@ -25,14 +25,14 @@
   fhir:StructureDefinition.version [ fhir:value "0.1.0-test"];
   fhir:StructureDefinition.name [ fhir:value "FancyIG"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-02-08T23:10:07+00:00"^^xsd:dateTime];
-  fhir:StructureDefinition.publisher [ fhir:value "xxxYour Work Group"];
+  fhir:StructureDefinition.date [ fhir:value "2022-02-08T23:22:22+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.publisher [ fhir:value "Your Work Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "xxxhttp://hl7.org/Special/committees/[something]" ]
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
      ]
   ];
   fhir:StructureDefinition.jurisdiction [
@@ -4313,7 +4313,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG.ttl> a owl:Ontology;
+<http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

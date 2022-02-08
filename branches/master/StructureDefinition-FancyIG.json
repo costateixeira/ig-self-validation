@@ -19,14 +19,14 @@
   "version": "0.1.0-test",
   "name": "FancyIG",
   "status": "active",
-  "date": "2022-02-08T23:10:07+00:00",
-  "publisher": "xxxYour Work Group",
+  "date": "2022-02-08T23:22:22+00:00",
+  "publisher": "Your Work Group",
   "contact": [
     {
       "telecom": [
         {
           "system": "url",
-          "value": "xxxhttp://hl7.org/Special/committees/[something]"
+          "value": "http://hl7.org/Special/committees/[something]"
         }
       ]
     }
