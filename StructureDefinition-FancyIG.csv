@@ -79,7 +79,7 @@ Restrictions","",1,1,"","","","markdown {[]} {[]}
 "ImplementationGuide.packageId","","","",1,1,"","","Y","id {[]} {[]}
 ","NPM Package name for IG","The NPM package name for this Implementation Guide, used in the NPM package distribution, which is the primary mechanism by which FHIR based tooling manages IG dependencies. This value must be globally unique, and should be assigned with care.","Many (if not all) IG publishing tools will require that this element be present. For implementation guides published through HL7 or the FHIR foundation, the FHIR product director assigns package IDs.","","","","","","","","",,,,,"",,,,"ImplementationGuide.packageId",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"ImplementationGuide.license","","","",0,1,"","","Y","code {[]} {[]}
+"ImplementationGuide.license","","","",1,1,"","","Y","code {[]} {[]}
 ","SPDX license code for this IG (or not-open-source)","The license that applies to this Implementation Guide, using an SPDX license code, or 'not-open-source'.","","","","","","","","","",,"required","The license that applies to an Implementation Guide (using an SPDX license Identifiers, or 'not-open-source'). The binding is required but new SPDX license Identifiers are allowed to be used (https://spdx.org/licenses/).","http://hl7.org/fhir/ValueSet/spdx-license|4.0.1","",,,,"ImplementationGuide.license",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "ImplementationGuide.fhirVersion","","","",1,*,"","","Y","code {[]} {[]}
