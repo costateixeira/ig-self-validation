@@ -1,29 +1,34 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "xxxexample.fhir.uv.myig",
+  "id": "example.fhir.uv.myig",
+  "meta": {
+    "profile": [
+      "http://example.com/fhir/example/StructureDefinition/FancyIG"
+    ]
+  },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>xxxYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>YourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig</pre><div><p>A brief description of what this IG is about</p>\n</div></div>"
   },
-  "url": "xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
+  "url": "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
   "version": "0.1.0-test",
-  "name": "xxxYourComputableMyIGNameHere",
-  "title": "xxxYour User Friendly Name for MyIG Here",
+  "name": "YourComputableMyIGNameHere",
+  "title": "Your User Friendly Name for MyIG Here",
   "status": "draft",
   "experimental": false,
-  "date": "2022-02-08T23:10:07+00:00",
-  "publisher": "xxxYour Work Group",
+  "date": "2022-02-08T23:22:22+00:00",
+  "publisher": "Your Work Group",
   "contact": [
     {
       "telecom": [
         {
           "system": "url",
-          "value": "xxxhttp://hl7.org/Special/committees/[something]"
+          "value": "http://hl7.org/Special/committees/[something]"
         }
       ]
     }
   ],
-  "description": "xxxA brief description of what this IG is about ",
+  "description": "A brief description of what this IG is about ",
   "jurisdiction": [
     {
       "coding": [
@@ -34,7 +39,7 @@
       ]
     }
   ],
-  "packageId": "xxxexample.fhir.uv.myig",
+  "packageId": "example.fhir.uv.myig",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -192,7 +197,7 @@
           },
           {
             "url": "value",
-            "valueString": "xxxhttp://somewhere.org/fhir/uv/myig/history.html"
+            "valueString": "http://somewhere.org/fhir/uv/myig/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
