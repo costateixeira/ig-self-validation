@@ -13,6 +13,7 @@
     <sch:title>f:ImplementationGuide</sch:title>
     <sch:rule context="f:ImplementationGuide">
       <sch:assert test="count(f:copyright) &gt;= 1">copyright: minimum cardinality of 'copyright' is 1</sch:assert>
+      <sch:assert test="count(f:license) &gt;= 1">license: minimum cardinality of 'license' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
