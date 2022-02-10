@@ -3,7 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="example.fhir.uv.myig"/>
   <meta>
-    <profile value="http://example.com/fhir/example/StructureDefinition/FancyIG"/>
+    <profile value="http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG"/>
   </meta>
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>YourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig</pre><div><p>A brief description of what this IG is about</p>
@@ -15,7 +15,7 @@
   <title value="Your User Friendly Name for MyIG Here"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-02-10T16:41:55+00:00"/>
+  <date value="2022-02-10T18:54:49+00:00"/>
   <publisher value="Your Work Group"/>
   <contact>
     <telecom>

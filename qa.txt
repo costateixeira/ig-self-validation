@@ -1,17 +1,17 @@
 ﻿YourComputableMyIGNameHere : Validation Results
 =========================================
 
-err = 1, warn = 3, info = 0
+err = 2, warn = 1, info = 1
 IG Publisher Version: 1.1.99
-Generated Thu Feb 10 16:42:12 UTC 2022. FHIR version 4.0.1 for example.fhir.uv.myig#0.1.0-test (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Thu Feb 10 18:55:06 UTC 2022. FHIR version 4.0.1 for example.fhir.uv.myig#0.1.0-test (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 1 / 1 / 0
- /github/workspace/fsh-generated/resources/StructureDefinition-FancyIG : 0 / 1 / 1
- /github/workspace/input/myig : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-FancyIG : 0 / 0 / 2
+ /github/workspace/input/myig : 1 / 0 / 2
 </table>
 == n/a ==
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/FancyIG.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/FancyIG.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 == fsh-generated/resources/StructureDefinition-FancyIG.json ==
-WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG'): The Implementation Guide contains no explicitly linked examples for this profile
 == input/myig.xml ==
-WARNING: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide.meta.profile[0]: Profile reference 'http://example.com/fhir/example/StructureDefinition/FancyIG' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+ERROR: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide: ImplementationGuide.copyright: minimum required = 1, but only found 0 (from http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG)
