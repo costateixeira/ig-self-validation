@@ -2,7 +2,7 @@
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R5/fhir-single.xsd">
   <meta>
-    <profile value="http://example.com/fhir/example/StructureDefinition/FancyIG"/>
+    <profile value="http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG"/>
   </meta>
   <id value="example.fhir.uv.myig"/>
 <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
