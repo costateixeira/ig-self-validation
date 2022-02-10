@@ -3,7 +3,7 @@
   "id": "example.fhir.uv.myig",
   "meta": {
     "profile": [
-      "http://example.com/fhir/example/StructureDefinition/FancyIG"
+      "http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG"
     ]
   },
   "text": {
@@ -16,7 +16,7 @@
   "title": "Your User Friendly Name for MyIG Here",
   "status": "draft",
   "experimental": false,
-  "date": "2022-02-10T16:41:55+00:00",
+  "date": "2022-02-10T18:54:49+00:00",
   "publisher": "Your Work Group",
   "contact": [
     {
