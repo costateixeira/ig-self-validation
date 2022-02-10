@@ -15,11 +15,11 @@
       "valueCode": "anonymous"
     }
   ],
-  "url": "http://example.com/fhir/example/StructureDefinition/FancyIG",
+  "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG",
   "version": "0.1.0-test",
   "name": "FancyIG",
   "status": "active",
-  "date": "2022-02-08T23:29:44+00:00",
+  "date": "2022-02-10T16:41:55+00:00",
   "publisher": "Your Work Group",
   "contact": [
     {

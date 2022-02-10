@@ -1,16 +1,16 @@
 [
   {
-    "id": "FancyIG",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/FancyIG",
-    "version": "0.1.0-test",
-    "name": "FancyIG"
-  },
-  {
     "id": "example.fhir.uv.myig",
     "type": "ImplementationGuide",
     "url": "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
     "version": "0.1.0-test",
     "name": "YourComputableMyIGNameHere"
+  },
+  {
+    "id": "FancyIG",
+    "type": "StructureDefinition",
+    "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG",
+    "version": "0.1.0-test",
+    "name": "FancyIG"
   }
 ]
