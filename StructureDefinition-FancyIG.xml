@@ -14,11 +14,11 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="anonymous"/>
   </extension>
-  <url value="http://example.com/fhir/example/StructureDefinition/FancyIG"/>
+  <url value="http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG"/>
   <version value="0.1.0-test"/>
   <name value="FancyIG"/>
   <status value="active"/>
-  <date value="2022-02-08T23:29:44+00:00"/>
+  <date value="2022-02-10T16:41:55+00:00"/>
   <publisher value="Your Work Group"/>
   <contact>
     <telecom>

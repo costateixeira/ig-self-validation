@@ -21,11 +21,11 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "anonymous" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://example.com/fhir/example/StructureDefinition/FancyIG"];
+  fhir:StructureDefinition.url [ fhir:value "http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0-test"];
   fhir:StructureDefinition.name [ fhir:value "FancyIG"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-02-08T23:29:44+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-02-10T16:41:55+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Your Work Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

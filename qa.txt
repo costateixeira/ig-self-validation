@@ -1,19 +1,17 @@
 ﻿YourComputableMyIGNameHere : Validation Results
 =========================================
 
-err = 4, warn = 2, info = 0
+err = 1, warn = 3, info = 0
 IG Publisher Version: 1.1.99
-Generated Tue Feb 08 23:30:02 UTC 2022. FHIR version 4.0.1 for example.fhir.uv.myig#0.1.0-test (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Thu Feb 10 16:42:12 UTC 2022. FHIR version 4.0.1 for example.fhir.uv.myig#0.1.0-test (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 1 / 1 / 0
- /github/workspace/fsh-generated/resources/StructureDefinition-FancyIG : 2 / 1 / 1
- /github/workspace/input/myig : 1 / 0 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-FancyIG : 0 / 1 / 1
+ /github/workspace/input/myig : 0 / 1 / 1
 </table>
 == n/a ==
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/FancyIG.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/FancyIG.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 == fsh-generated/resources/StructureDefinition-FancyIG.json ==
-ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/FancyIG'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-FancyIG.json - the canonical URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG) does not match the URL (http://example.com/fhir/example/StructureDefinition/FancyIG)
-WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/FancyIG'): The Implementation Guide contains no examples for this profile
-ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-FancyIG: URL Mismatch http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG vs http://example.com/fhir/example/StructureDefinition/FancyIG
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/FancyIG'): The Implementation Guide contains no examples for this profile
 == input/myig.xml ==
-ERROR: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide: ImplementationGuide.copyright: minimum required = 1, but only found 0 (from http://example.com/fhir/example/StructureDefinition/FancyIG)
+WARNING: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide.meta.profile[0]: Profile reference 'http://example.com/fhir/example/StructureDefinition/FancyIG' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
